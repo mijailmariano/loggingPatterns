@@ -85,3 +85,6 @@ def analyze_customer_data(customer_id, date_range, product_category=None):
 # start_date = datetime(2023, 1, 1)
 # end_date = datetime(2023, 12, 31)
 # result = analyze_customer_data(1, (start_date, end_date), "Electronics")
+
+#%%
+print(f'{"text":.^40}')
