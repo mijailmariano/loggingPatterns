@@ -31,10 +31,10 @@
 
 ```mermaid
 flowchart TB
-    S[.info\nLog RECORD\nmessage\nlevel\ncreated\nthread\n...]
+    S[".info()\nLog RECORD\nmessage\nlevel\ncreated\nthread\n..."]
     subgraph Messages
         direction TB
-        Y[''message': 'THE ACTUAL MESSAGE']
+        Y['message': 'THE ACTUAL MESSAGE']
         Z['INFO': 'THE ACTUAL MESSAGE']
     end
     A[LOGGER\nLEVEL: DEBUG/INFO/WARNING/ ...\n FILTER\n...]
